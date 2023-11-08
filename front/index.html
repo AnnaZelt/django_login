@@ -18,7 +18,7 @@
     <button onclick="checkOut()">Checkout</button>
     <script>
         let cart = []
-        const MY_SERVER = "http://127.0.0.1:8000/"
+        const MY_SERVER = "https://render-test1-sfpu.onrender.com/"
         let products = []
         const load_display = async () => {
             const res = await axios.get(MY_SERVER + "/products")
